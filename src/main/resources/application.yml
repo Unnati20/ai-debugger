@@ -1,0 +1,50 @@
+server:
+  port: ${SERVER_PORT:8080}
+
+spring:
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/aidebugger}
+    driver-class-name: org.postgresql.Driver
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
+  jpa:
+    hibernate:
+      ddl-auto: ${JPA_DDL_AUTO:update}
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        type_contributors: 
+        - com.pgvector.hibernate.PgVectorTypeContributor
+  sql:
+    init:
+      mode: ${SQL_INIT_MODE:always}
+
+# OLD OLLAMA CONFIGURATION - COMMENTED OUT
+# olama:
+#   url: ${OLAMA_URL:http://host.docker.internal:11434/api/generate}
+#   embeddings-url: ${OLAMA_EMBEDDINGS_URL:https://api.olama.ai/v1/embeddings}
+#   embedding-model: ${OLAMA_EMBEDDING_MODEL:text-embedding-3-small}
+#   chat-model: ${OLAMA_CHAT_MODEL:mistral}
+
+# OLD OLLAMA CONFIGURATION - COMMENTED OUT
+# ollama:
+#   url: http://host.docker.internal:11434
+#   chat-model: mistral:7b-instruct-q4_0
+#   embedding-model: nomic-embed-text
+
+cohere:
+  api-key: ${COHERE_API_KEY}
+  embedding-model: ${COHERE_EMBEDDING_MODEL:embed-v4.0}
+
+huggingface:
+  api-key: ${HUGGINGFACE_API_KEY}
+  model: ${HUGGINGFACE_MODEL:meta-llama/Llama-3.1-8B-Instruct:novita}
+  url: ${HUGGINGFACE_URL:https://router.huggingface.co/v1/chat/completions}
+
+app:
+  sample-data:
+    enabled: ${APP_SAMPLE_DATA_ENABLED:false}
+    skip-if-data-exists: ${APP_SAMPLE_DATA_SKIP_IF_EXISTS:true}
+    payment-failure-logs: []
+    null-pointer-logs: []
+    runbook-steps: []

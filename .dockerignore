@@ -1,0 +1,10 @@
+target
+.git
+.idea
+.cursor
+node_modules
+*.log
+README.md
+docs
+k8s
+scripts

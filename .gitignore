@@ -1,0 +1,13 @@
+*.txt
+*.logs
+scripts/
+*.json
+k8s/
+docs/
+target/
+.vscode/
+
+# Env / Secrets
+.env
+application-local.yaml
+commands.doc

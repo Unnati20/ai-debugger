@@ -1,0 +1,363 @@
+2026-04-08T15:44:09.174Z [INFO] ----------------------invoke appmod-run-tests-for-java----------------------
+2026-04-08T15:44:09.175Z [INFO] [Tool.invoke]({name: appmod-run-tests-for-java, input: {
+  "projectPath": "c:/Users/webfr/aidebugger"
+}}).
+2026-04-08T15:44:09.176Z [INFO] [Tool.invoke] do invoke.
+2026-04-08T15:44:09.178Z [INFO] Project c:/Users/webfr/aidebugger is a maven project, try to get java version from pom.xml
+2026-04-08T15:44:09.180Z [INFO] Project java version: 17
+2026-04-08T15:44:09.181Z [INFO] Maven project detected.
+2026-04-08T15:44:09.181Z [INFO] Build tool type: mvn
+2026-04-08T15:44:09.204Z [INFO] JDK: {
+  "name": "java",
+  "path": "C:\\Program Files\\Zulu\\zulu-17\\bin",
+  "version": "17"
+}
+2026-04-08T15:44:09.209Z [INFO] Build tool: {
+  "name": "mvn",
+  "path": "C:\\Program Files\\apache-maven-3.9.10\\bin",
+  "version": "",
+  "source": "PATH"
+}
+2026-04-08T15:44:09.210Z [INFO] Project config: {
+  "buildTool": {
+    "path": "C:\\Program Files\\apache-maven-3.9.10\\bin",
+    "name": "mvn",
+    "version": "",
+    "source": "PATH"
+  },
+  "jdk": {
+    "path": "C:\\Program Files\\Zulu\\zulu-17\\bin",
+    "name": "java",
+    "version": "17"
+  },
+  "name": "aidebugger",
+  "dir": "c:/Users/webfr/aidebugger"
+}
+2026-04-08T15:44:09.210Z [INFO] Building project before running tests...
+2026-04-08T15:44:09.211Z [INFO] [MavenBuildTool] Getting build errors of c:/Users/webfr/aidebugger using Maven
+2026-04-08T15:44:09.211Z [INFO] [Environment] Running command (Java undefined): mvn clean test-compile -q -B -fn -Dossindex.skip=true -Dlicense.skip=true -Dcheckstyle.skip=true -DskipLicenseCheck=true -DskipCheckStyle=true -Dpmd.skip=true -Denforcer.skip=true -Drat.skip=true
+2026-04-08T15:44:25.666Z [INFO] [MavenBuildTool] parsing compilation errors.
+2026-04-08T15:44:25.668Z [INFO] [MavenBuildTool] Getting all module coordinates of c:/Users/webfr/aidebugger
+2026-04-08T15:44:25.668Z [INFO] [MavenBuildTool] Getting effective POMs of c:/Users/webfr/aidebugger
+2026-04-08T15:44:25.669Z [INFO] [Environment] Running command (Java undefined): mvn help:effective-pom -Doutput=effective-pom-6b079920-d5cd-4de6-ba1a-a8fa40495f45.log
+[INFO] Scanning for projects...
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-install-plugin/3.1.3/maven-install-plugin-3.1.3.pom
+Progress (1): 792 BProgress (1): 1.8 kBProgress (1): 3.7 kBProgress (1): 7.5 kBProgress (1): 8.1 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-install-plugin/3.1.3/maven-install-plugin-3.1.3.pom (8.1 kB at 19 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-deploy-plugin/3.1.3/maven-deploy-plugin-3.1.3.pom
+Progress (1): 767 BProgress (1): 1.7 kBProgress (1): 3.8 kBProgress (1): 8.0 kBProgress (1): 9.2 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-deploy-plugin/3.1.3/maven-deploy-plugin-3.1.3.pom (9.2 kB at 139 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/build-helper-maven-plugin/3.5.0/build-helper-maven-plugin-3.5.0.pom
+Progress (1): 1.0 kBProgress (1): 2.5 kBProgress (1): 5.3 kBProgress (1): 7.4 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/build-helper-maven-plugin/3.5.0/build-helper-maven-plugin-3.5.0.pom (7.4 kB at 103 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/mojo-parent/77/mojo-parent-77.pom
+Progress (1): 715 BProgress (1): 1.7 kBProgress (1): 5.2 kBProgress (1): 7.8 kBProgress (1): 9.1 kBProgress (1): 12 kB Progress (1): 14 kBProgress (1): 19 kBProgress (1): 24 kBProgress (1): 27 kBProgress (1): 28 kBProgress (1): 31 kBProgress (1): 36 kBProgress (1): 36 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/mojo-parent/77/mojo-parent-77.pom (36 kB at 459 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/build-helper-maven-plugin/3.5.0/build-helper-maven-plugin-3.5.0.jar
+Progress (1): 0.9/71 kBProgress (1): 2.3/71 kBProgress (1): 3.6/71 kBProgress (1): 5.0/71 kBProgress (1): 6.4/71 kBProgress (1): 7.7/71 kBProgress (1): 9.1/71 kBProgress (1): 10/71 kB Progress (1): 12/71 kBProgress (1): 13/71 kBProgress (1): 15/71 kBProgress (1): 16/71 kBProgress (1): 17/71 kBProgress (1): 19/71 kBProgress (1): 20/71 kBProgress (1): 21/71 kBProgress (1): 23/71 kBProgress (1): 24/71 kBProgress (1): 26/71 kBProgress (1): 27/71 kBProgress (1): 28/71 kBProgress (1): 30/71 kBProgress (1): 31/71 kBProgress (1): 32/71 kBProgress (1): 34/71 kBProgress (1): 35/71 kBProgress (1): 39/71 kBProgress (1): 44/71 kBProgress (1): 48/71 kBProgress (1): 52/71 kBProgress (1): 56/71 kBProgress (1): 60/71 kBProgress (1): 65/71 kBProgress (1): 69/71 kBProgress (1): 71 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/build-helper-maven-plugin/3.5.0/build-helper-maven-plugin-3.5.0.jar (71 kB at 904 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/cyclonedx/cyclonedx-maven-plugin/2.8.1/cyclonedx-maven-plugin-2.8.1.pom
+Progress (1): 711 BProgress (1): 2.3 kBProgress (1): 4.5 kBProgress (1): 8.7 kBProgress (1): 12 kB Progress (1): 17 kBProgress (1): 19 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/cyclonedx/cyclonedx-maven-plugin/2.8.1/cyclonedx-maven-plugin-2.8.1.pom (19 kB at 229 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/cyclonedx/cyclonedx-maven-plugin/2.8.1/cyclonedx-maven-plugin-2.8.1.jar
+Progress (1): 3.4/51 kBProgress (1): 7.6/51 kBProgress (1): 12/51 kB Progress (1): 16/51 kBProgress (1): 20/51 kBProgress (1): 25/51 kBProgress (1): 29/51 kBProgress (1): 33/51 kBProgress (1): 37/51 kBProgress (1): 41/51 kBProgress (1): 46/51 kBProgress (1): 50/51 kBProgress (1): 51 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/cyclonedx/cyclonedx-maven-plugin/2.8.1/cyclonedx-maven-plugin-2.8.1.jar (51 kB at 777 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/flywaydb/flyway-maven-plugin/10.10.0/flyway-maven-plugin-10.10.0.pom
+Progress (1): 856 BProgress (1): 3.7 kBProgress (1): 4.4 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/flywaydb/flyway-maven-plugin/10.10.0/flyway-maven-plugin-10.10.0.pom (4.4 kB at 78 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/flywaydb/flyway-parent/10.10.0/flyway-parent-10.10.0.pom
+Progress (1): 750 BProgress (1): 2.3 kBProgress (1): 4.7 kBProgress (1): 6.8 kBProgress (1): 14 kB Progress (1): 22 kBProgress (1): 26 kBProgress (1): 27 kBProgress (1): 31 kBProgress (1): 33 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/flywaydb/flyway-parent/10.10.0/flyway-parent-10.10.0.pom (33 kB at 380 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/flywaydb/flyway-maven-plugin/10.10.0/flyway-maven-plugin-10.10.0.jar
+Progress (1): 3.8/110 kBProgress (1): 8.0/110 kBProgress (1): 12/110 kB Progress (1): 16/110 kBProgress (1): 21/110 kBProgress (1): 25/110 kBProgress (1): 29/110 kBProgress (1): 33/110 kBProgress (1): 38/110 kBProgress (1): 42/110 kBProgress (1): 46/110 kBProgress (1): 57/110 kBProgress (1): 73/110 kBProgress (1): 90/110 kBProgress (1): 106/110 kBProgress (1): 110 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/flywaydb/flyway-maven-plugin/10.10.0/flyway-maven-plugin-10.10.0.jar (110 kB at 950 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/github/git-commit-id/git-commit-id-maven-plugin/8.0.2/git-commit-id-maven-plugin-8.0.2.pom
+Progress (1): 962 BProgress (1): 2.7 kBProgress (1): 8.0 kBProgress (1): 11 kB Progress (1): 15 kBProgress (1): 19 kBProgress (1): 22 kBProgress (1): 26 kBProgress (1): 28 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/io/github/git-commit-id/git-commit-id-maven-plugin/8.0.2/git-commit-id-maven-plugin-8.0.2.pom (28 kB at 406 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/github/git-commit-id/git-commit-id-maven-plugin/8.0.2/git-commit-id-maven-plugin-8.0.2.jar
+Progress (1): 7.7/55 kBProgress (1): 16/55 kB Progress (1): 32/55 kBProgress (1): 49/55 kBProgress (1): 55 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/io/github/git-commit-id/git-commit-id-maven-plugin/8.0.2/git-commit-id-maven-plugin-8.0.2.jar (55 kB at 645 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jooq/jooq-codegen-maven/3.19.11/jooq-codegen-maven-3.19.11.pom
+Progress (1): 1.2 kBProgress (1): 3.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/jooq/jooq-codegen-maven/3.19.11/jooq-codegen-maven-3.19.11.pom (3.7 kB at 54 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jooq/jooq-parent/3.19.11/jooq-parent-3.19.11.pom
+Progress (1): 909 BProgress (1): 2.3 kBProgress (1): 4.3 kBProgress (1): 10 kB Progress (1): 17 kBProgress (1): 21 kBProgress (1): 23 kBProgress (1): 29 kBProgress (1): 33 kBProgress (1): 37 kBProgress (1): 40 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/jooq/jooq-parent/3.19.11/jooq-parent-3.19.11.pom (40 kB at 591 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jooq/jooq-codegen-maven/3.19.11/jooq-codegen-maven-3.19.11.jar
+Progress (1): 7.7/17 kBProgress (1): 16/17 kB Progress (1): 17 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/jooq/jooq-codegen-maven/3.19.11/jooq-codegen-maven-3.19.11.jar (17 kB at 265 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-maven-plugin/1.9.25/kotlin-maven-plugin-1.9.25.pom
+Progress (1): 2.0 kBProgress (1): 4.9 kBProgress (1): 6.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-maven-plugin/1.9.25/kotlin-maven-plugin-1.9.25.pom (6.7 kB at 115 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-project/1.9.25/kotlin-project-1.9.25.pom
+Progress (1): 963 BProgress (1): 2.9 kBProgress (1): 6.4 kBProgress (1): 11 kB Progress (1): 16 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-project/1.9.25/kotlin-project-1.9.25.pom (16 kB at 274 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-maven-plugin/1.9.25/kotlin-maven-plugin-1.9.25.jar
+Progress (1): 7.7/82 kBProgress (1): 16/82 kB Progress (1): 32/82 kBProgress (1): 49/82 kBProgress (1): 57/82 kBProgress (1): 74/82 kBProgress (1): 82 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-maven-plugin/1.9.25/kotlin-maven-plugin-1.9.25.jar (82 kB at 1.1 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/liquibase/liquibase-maven-plugin/4.27.0/liquibase-maven-plugin-4.27.0.pom
+Progress (1): 1.3 kBProgress (1): 2.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/liquibase/liquibase-maven-plugin/4.27.0/liquibase-maven-plugin-4.27.0.pom (2.0 kB at 30 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/liquibase/liquibase-maven-plugin/4.27.0/liquibase-maven-plugin-4.27.0.jar
+Progress (1): 8.2/282 kBProgress (1): 25/282 kB Progress (1): 41/282 kBProgress (1): 57/282 kBProgress (1): 74/282 kBProgress (1): 90/282 kBProgress (1): 106/282 kBProgress (1): 123/282 kBProgress (1): 139/282 kBProgress (1): 156/282 kBProgress (1): 172/282 kBProgress (1): 188/282 kBProgress (1): 205/282 kBProgress (1): 221/282 kBProgress (1): 238/282 kBProgress (1): 254/282 kBProgress (1): 270/282 kBProgress (1): 282 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/liquibase/liquibase-maven-plugin/4.27.0/liquibase-maven-plugin-4.27.0.jar (282 kB at 2.8 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-antrun-plugin/3.1.0/maven-antrun-plugin-3.1.0.pom
+Progress (1): 759 BProgress (1): 2.2 kBProgress (1): 5.0 kBProgress (1): 8.3 kBProgress (1): 9.1 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-antrun-plugin/3.1.0/maven-antrun-plugin-3.1.0.pom (9.1 kB at 149 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-antrun-plugin/3.1.0/maven-antrun-plugin-3.1.0.jar
+Progress (1): 8.2/41 kBProgress (1): 25/41 kB Progress (1): 41/41 kBProgress (1): 41 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-antrun-plugin/3.1.0/maven-antrun-plugin-3.1.0.jar (41 kB at 35 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-assembly-plugin/3.7.1/maven-assembly-plugin-3.7.1.pom
+Progress (1): 773 BProgress (1): 2.2 kBProgress (1): 4.9 kBProgress (1): 8.0 kBProgress (1): 9.9 kBProgress (1): 13 kB Progress (1): 15 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-assembly-plugin/3.7.1/maven-assembly-plugin-3.7.1.pom (15 kB at 249 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-assembly-plugin/3.7.1/maven-assembly-plugin-3.7.1.jar
+Progress (1): 7.7/240 kBProgress (1): 16/240 kB Progress (1): 24/240 kBProgress (1): 40/240 kBProgress (1): 57/240 kBProgress (1): 73/240 kBProgress (1): 90/240 kBProgress (1): 106/240 kBProgress (1): 122/240 kBProgress (1): 139/240 kBProgress (1): 155/240 kBProgress (1): 172/240 kBProgress (1): 188/240 kBProgress (1): 204/240 kBProgress (1): 221/240 kBProgress (1): 237/240 kBProgress (1): 240 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-assembly-plugin/3.7.1/maven-assembly-plugin-3.7.1.jar (240 kB at 3.1 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/3.6.1/maven-dependency-plugin-3.6.1.pom
+Progress (1): 740 BProgress (1): 2.3 kBProgress (1): 4.0 kBProgress (1): 9.2 kBProgress (1): 13 kB Progress (1): 16 kBProgress (1): 18 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/3.6.1/maven-dependency-plugin-3.6.1.pom (18 kB at 374 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/3.6.1/maven-dependency-plugin-3.6.1.jar
+Progress (1): 7.7/191 kBProgress (1): 16/191 kB Progress (1): 32/191 kBProgress (1): 49/191 kBProgress (1): 57/191 kBProgress (1): 74/191 kBProgress (1): 90/191 kBProgress (1): 106/191 kBProgress (1): 123/191 kBProgress (1): 139/191 kBProgress (1): 156/191 kBProgress (1): 172/191 kBProgress (1): 188/191 kBProgress (1): 191 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/3.6.1/maven-dependency-plugin-3.6.1.jar (191 kB at 2.0 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-release-plugin/3.0.1/maven-release-plugin-3.0.1.pom
+Progress (1): 806 BProgress (1): 3.6 kBProgress (1): 6.6 kBProgress (1): 9.2 kBProgress (1): 9.8 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-release-plugin/3.0.1/maven-release-plugin-3.0.1.pom (9.8 kB at 149 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/release/maven-release/3.0.1/maven-release-3.0.1.pom
+Progress (1): 805 BProgress (1): 2.5 kBProgress (1): 4.2 kBProgress (1): 11 kB Progress (1): 11 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/release/maven-release/3.0.1/maven-release-3.0.1.pom (11 kB at 165 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-release-plugin/3.0.1/maven-release-plugin-3.0.1.jar
+Progress (1): 3.4/61 kBProgress (1): 20/61 kB Progress (1): 36/61 kBProgress (1): 53/61 kBProgress (1): 61 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-release-plugin/3.0.1/maven-release-plugin-3.0.1.jar (61 kB at 1.1 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-enforcer-plugin/3.4.1/maven-enforcer-plugin-3.4.1.pom
+Progress (1): 810 BProgress (1): 3.4 kBProgress (1): 5.2 kBProgress (1): 7.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-enforcer-plugin/3.4.1/maven-enforcer-plugin-3.4.1.pom (7.7 kB at 99 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/enforcer/enforcer/3.4.1/enforcer-3.4.1.pom
+Progress (1): 806 BProgress (1): 2.3 kBProgress (1): 4.3 kBProgress (1): 8.7 kBProgress (1): 9.1 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/enforcer/enforcer/3.4.1/enforcer-3.4.1.pom (9.1 kB at 98 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-enforcer-plugin/3.4.1/maven-enforcer-plugin-3.4.1.jar
+Progress (1): 7.7/39 kBProgress (1): 12/39 kB Progress (1): 28/39 kBProgress (1): 39 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-enforcer-plugin/3.4.1/maven-enforcer-plugin-3.4.1.jar (39 kB at 550 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-failsafe-plugin/3.2.5/maven-failsafe-plugin-3.2.5.pom
+Progress (1): 813 BProgress (1): 2.9 kBProgress (1): 5.6 kBProgress (1): 9.1 kBProgress (1): 10 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-failsafe-plugin/3.2.5/maven-failsafe-plugin-3.2.5.pom (10 kB at 175 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-failsafe-plugin/3.2.5/maven-failsafe-plugin-3.2.5.jar
+Progress (1): 7.7/55 kBProgress (1): 16/55 kB Progress (1): 32/55 kBProgress (1): 49/55 kBProgress (1): 55 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-failsafe-plugin/3.2.5/maven-failsafe-plugin-3.2.5.jar (55 kB at 1.0 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-help-plugin/3.4.1/maven-help-plugin-3.4.1.pom
+Progress (1): 780 BProgress (1): 2.0 kBProgress (1): 5.0 kBProgress (1): 9.1 kBProgress (1): 10 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-help-plugin/3.4.1/maven-help-plugin-3.4.1.pom (10 kB at 215 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-help-plugin/3.4.1/maven-help-plugin-3.4.1.jar
+Progress (1): 16/64 kBProgress (1): 33/64 kBProgress (1): 49/64 kBProgress (1): 64 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-help-plugin/3.4.1/maven-help-plugin-3.4.1.jar (64 kB at 962 kB/s)
+[INFO] 
+[INFO] -----------------------< com.example:aidebugger >-----------------------
+[INFO] Building aidebugger 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- help:3.4.1:effective-pom (default-cli) @ aidebugger ---
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-generators/3.12.0/maven-plugin-tools-generators-3.12.0.pom
+Progress (1): 860 BProgress (1): 3.2 kBProgress (1): 3.3 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-generators/3.12.0/maven-plugin-tools-generators-3.12.0.pom (3.3 kB at 58 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools/3.12.0/maven-plugin-tools-3.12.0.pom
+Progress (1): 801 BProgress (1): 2.4 kBProgress (1): 4.0 kBProgress (1): 9.3 kBProgress (1): 12 kB Progress (1): 14 kBProgress (1): 17 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools/3.12.0/maven-plugin-tools-3.12.0.pom (17 kB at 353 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jsoup/jsoup/1.17.2/jsoup-1.17.2.pom
+Progress (1): 852 BProgress (1): 2.4 kBProgress (1): 3.4 kBProgress (1): 5.5 kBProgress (1): 8.4 kBProgress (1): 10 kB Progress (1): 13 kBProgress (1): 16 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/jsoup/jsoup/1.17.2/jsoup-1.17.2.pom (16 kB at 260 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interactivity-api/1.3/plexus-interactivity-api-1.3.pom
+Progress (1): 1.6 kBProgress (1): 1.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interactivity-api/1.3/plexus-interactivity-api-1.3.pom (1.7 kB at 29 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interactivity/1.3/plexus-interactivity-1.3.pom
+Progress (1): 1.3 kBProgress (1): 1.9 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interactivity/1.3/plexus-interactivity-1.3.pom (1.9 kB at 36 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream/1.4.20/xstream-1.4.20.pom
+Progress (1): 880 BProgress (1): 4.2 kBProgress (1): 7.1 kBProgress (1): 10 kB Progress (1): 14 kBProgress (1): 22 kBProgress (1): 25 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream/1.4.20/xstream-1.4.20.pom (25 kB at 365 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream-parent/1.4.20/xstream-parent-1.4.20.pom
+Progress (1): 797 BProgress (1): 3.2 kBProgress (1): 5.9 kBProgress (1): 11 kB Progress (1): 14 kBProgress (1): 19 kBProgress (1): 25 kBProgress (1): 29 kBProgress (1): 34 kBProgress (1): 38 kBProgress (1): 41 kBProgress (1): 43 kBProgress (1): 44 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream-parent/1.4.20/xstream-parent-1.4.20.pom (44 kB at 779 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/github/x-stream/mxparser/1.2.2/mxparser-1.2.2.pom
+Progress (1): 817 BProgress (1): 2.9 kBProgress (1): 6.3 kBProgress (1): 10 kB Progress (1): 15 kBProgress (1): 19 kBProgress (1): 23 kBProgress (1): 24 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/io/github/x-stream/mxparser/1.2.2/mxparser-1.2.2.pom (24 kB at 398 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/xmlpull/xmlpull/1.1.3.1/xmlpull-1.1.3.1.pom
+Progress (1): 386 B                   Downloaded from central: https://repo.maven.apache.org/maven2/xmlpull/xmlpull/1.1.3.1/xmlpull-1.1.3.1.pom (386 B at 6.0 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-generators/3.12.0/maven-plugin-tools-generators-3.12.0.jar
+Progress (1): 7.7/43 kBProgress (1): 16/43 kB Progress (1): 32/43 kBProgress (1): 43 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-generators/3.12.0/maven-plugin-tools-generators-3.12.0.jar (43 kB at 749 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jsoup/jsoup/1.17.2/jsoup-1.17.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interactivity-api/1.3/plexus-interactivity-api-1.3.jar
+Downloading from central: https://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream/1.4.20/xstream-1.4.20.jar
+Downloading from central: https://repo.maven.apache.org/maven2/io/github/x-stream/mxparser/1.2.2/mxparser-1.2.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/xmlpull/xmlpull/1.1.3.1/xmlpull-1.1.3.1.jar
+Progress (1): 7.7/446 kBProgress (1): 16/446 kB Progress (1): 24/446 kBProgress (1): 40/446 kBProgress (1): 57/446 kBProgress (1): 73/446 kBProgress (1): 90/446 kBProgress (1): 106/446 kBProgress (1): 122/446 kBProgress (1): 139/446 kBProgress (1): 155/446 kBProgress (1): 172/446 kBProgress (1): 188/446 kBProgress (1): 204/446 kBProgress (1): 221/446 kBProgress (1): 237/446 kBProgress (1): 253/446 kBProgress (1): 270/446 kBProgress (1): 286/446 kBProgress (1): 303/446 kBProgress (1): 319/446 kBProgress (1): 335/446 kBProgress (1): 352/446 kBProgress (1): 368/446 kBProgress (1): 385/446 kBProgress (1): 401/446 kBProgress (1): 417/446 kBProgress (1): 434/446 kBProgress (1): 446 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/jsoup/jsoup/1.17.2/jsoup-1.17.2.jar (446 kB at 3.4 MB/s)
+Progress (1): 0.9/7.2 kBProgress (1): 2.3/7.2 kBProgress (1): 3.6/7.2 kBProgress (1): 5.0/7.2 kBProgress (1): 6.4/7.2 kBProgress (1): 7.2 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/xmlpull/xmlpull/1.1.3.1/xmlpull-1.1.3.1.jar (7.2 kB at 48 kB/s)
+Progress (1): 0.9/10 kBProgress (1): 2.3/10 kBProgress (1): 3.6/10 kBProgress (2): 3.6/10 kB | 0.9/30 kBProgress (2): 5.0/10 kB | 0.9/30 kBProgress (2): 5.0/10 kB | 2.3/30 kBProgress (2): 6.4/10 kB | 2.3/30 kBProgress (2): 6.4/10 kB | 3.6/30 kBProgress (2): 7.7/10 kB | 3.6/30 kBProgress (2): 7.7/10 kB | 5.0/30 kBProgress (2): 9.1/10 kB | 5.0/30 kBProgress (3): 9.1/10 kB | 5.0/30 kB | 0.9/645 kBProgress (3): 10 kB | 5.0/30 kB | 0.9/645 kB    Progress (3): 10 kB | 6.4/30 kB | 0.9/645 kBProgress (3): 10 kB | 6.4/30 kB | 2.3/645 kBProgress (3): 10 kB | 7.7/30 kB | 2.3/645 kBProgress (3): 10 kB | 7.7/30 kB | 3.4/645 kBProgress (3): 10 kB | 9.1/30 kB | 3.4/645 kBProgress (3): 10 kB | 10/30 kB | 3.4/645 kB Progress (3): 10 kB | 10/30 kB | 4.7/645 kBProgress (3): 10 kB | 12/30 kB | 4.7/645 kBProgress (3): 10 kB | 12/30 kB | 6.1/645 kBProgress (3): 10 kB | 13/30 kB | 6.1/645 kBProgress (3): 10 kB | 15/30 kB | 6.1/645 kBProgress (3): 10 kB | 15/30 kB | 7.5/645 kBProgress (3): 10 kB | 16/30 kB | 7.5/645 kBProgress (3): 10 kB | 16/30 kB | 8.8/645 kBProgress (3): 10 kB | 16/30 kB | 10/645 kB Progress (3): 10 kB | 16/30 kB | 12/645 kBProgress (3): 10 kB | 16/30 kB | 13/645 kBProgress (3): 10 kB | 16/30 kB | 14/645 kBProgress (3): 10 kB | 16/30 kB | 16/645 kBProgress (3): 10 kB | 16/30 kB | 17/645 kBProgress (3): 10 kB | 16/30 kB | 18/645 kBProgress (3): 10 kB | 16/30 kB | 20/645 kBProgress (3): 10 kB | 16/30 kB | 21/645 kBProgress (3): 10 kB | 16/30 kB | 23/645 kBProgress (3): 10 kB | 16/30 kB | 24/645 kBProgress (3): 10 kB | 16/30 kB | 25/645 kBProgress (3): 10 kB | 17/30 kB | 25/645 kBProgress (3): 10 kB | 19/30 kB | 25/645 kBProgress (3): 10 kB | 20/30 kB | 25/645 kBProgress (3): 10 kB | 21/30 kB | 25/645 kBProgress (3): 10 kB | 23/30 kB | 25/645 kBProgress (3): 10 kB | 24/30 kB | 25/645 kBProgress (3): 10 kB | 26/30 kB | 25/645 kBProgress (3): 10 kB | 27/30 kB | 25/645 kBProgress (3): 10 kB | 28/30 kB | 25/645 kBProgress (3): 10 kB | 30/30 kB | 25/645 kBProgress (3): 10 kB | 30 kB | 25/645 kB   Progress (3): 10 kB | 30 kB | 27/645 kBProgress (3): 10 kB | 30 kB | 28/645 kBProgress (3): 10 kB | 30 kB | 29/645 kBProgress (3): 10 kB | 30 kB | 31/645 kBProgress (3): 10 kB | 30 kB | 32/645 kBProgress (3): 10 kB | 30 kB | 33/645 kBProgress (3): 10 kB | 30 kB | 35/645 kBProgress (3): 10 kB | 30 kB | 36/645 kBProgress (3): 10 kB | 30 kB | 38/645 kBProgress (3): 10 kB | 30 kB | 39/645 kB                                       Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interactivity-api/1.3/plexus-interactivity-api-1.3.jar (10 kB at 61 kB/s)
+Progress (2): 30 kB | 40/645 kBProgress (2): 30 kB | 42/645 kBProgress (2): 30 kB | 43/645 kBProgress (2): 30 kB | 44/645 kBProgress (2): 30 kB | 46/645 kBProgress (2): 30 kB | 47/645 kBProgress (2): 30 kB | 49/645 kBProgress (2): 30 kB | 50/645 kBProgress (2): 30 kB | 51/645 kBProgress (2): 30 kB | 53/645 kBProgress (2): 30 kB | 54/645 kBProgress (2): 30 kB | 55/645 kBProgress (2): 30 kB | 60/645 kBProgress (2): 30 kB | 64/645 kB                               Downloaded from central: https://repo.maven.apache.org/maven2/io/github/x-stream/mxparser/1.2.2/mxparser-1.2.2.jar (30 kB at 171 kB/s)
+Progress (1): 68/645 kBProgress (1): 72/645 kBProgress (1): 77/645 kBProgress (1): 81/645 kBProgress (1): 85/645 kBProgress (1): 89/645 kBProgress (1): 93/645 kBProgress (1): 98/645 kBProgress (1): 102/645 kBProgress (1): 106/645 kBProgress (1): 110/645 kBProgress (1): 115/645 kBProgress (1): 119/645 kBProgress (1): 123/645 kBProgress (1): 127/645 kBProgress (1): 132/645 kBProgress (1): 134/645 kBProgress (1): 139/645 kBProgress (1): 143/645 kBProgress (1): 147/645 kBProgress (1): 147/645 kBProgress (1): 152/645 kBProgress (1): 156/645 kBProgress (1): 160/645 kBProgress (1): 164/645 kBProgress (1): 169/645 kBProgress (1): 173/645 kBProgress (1): 177/645 kBProgress (1): 181/645 kBProgress (1): 186/645 kBProgress (1): 190/645 kBProgress (1): 194/645 kBProgress (1): 198/645 kBProgress (1): 202/645 kBProgress (1): 207/645 kBProgress (1): 211/645 kBProgress (1): 215/645 kBProgress (1): 219/645 kBProgress (1): 236/645 kBProgress (1): 252/645 kBProgress (1): 269/645 kBProgress (1): 279/645 kBProgress (1): 295/645 kBProgress (1): 311/645 kBProgress (1): 328/645 kBProgress (1): 344/645 kBProgress (1): 360/645 kBProgress (1): 377/645 kBProgress (1): 393/645 kBProgress (1): 410/645 kBProgress (1): 426/645 kBProgress (1): 442/645 kBProgress (1): 459/645 kBProgress (1): 475/645 kBProgress (1): 492/645 kBProgress (1): 508/645 kBProgress (1): 524/645 kBProgress (1): 541/645 kBProgress (1): 557/645 kBProgress (1): 573/645 kBProgress (1): 590/645 kBProgress (1): 606/645 kBProgress (1): 623/645 kBProgress (1): 639/645 kBProgress (1): 645 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream/1.4.20/xstream-1.4.20.jar (645 kB at 2.3 MB/s)
+[INFO] Effective-POM written to: c:\Users\webfr\aidebugger\effective-pom-6b079920-d5cd-4de6-ba1a-a8fa40495f45.log
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  7.880 s
+[INFO] Finished at: 2026-04-08T11:44:35-04:00
+[INFO] ------------------------------------------------------------------------
+2026-04-08T15:44:35.517Z [INFO] [BaseBuildTool] Found 1 modules: .
+2026-04-08T15:44:35.535Z [INFO] [BaseBuildTool] Finish counting Java and class files
+2026-04-08T15:44:35.535Z [INFO] [MavenBuildTool] Cleaning c:/Users/webfr/aidebugger using Maven
+2026-04-08T15:44:35.536Z [INFO] [Environment] Running command (Java undefined): mvn clean -q -B -fn
+2026-04-08T15:44:38.537Z [INFO] Running tests...
+2026-04-08T15:44:38.538Z [INFO] [MavenBuildTool] Running test cases of c:/Users/webfr/aidebugger using Maven
+2026-04-08T15:44:38.538Z [INFO] [Environment] Running command (Java undefined): mvn clean test -q -B -fn
+11:44:50.770 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.aidebugger.controller.DebugControllerTest]: DebugControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+11:44:51.067 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.aidebugger.AiDebuggerApplication for test class com.example.aidebugger.controller.DebugControllerTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.4)
+
+2026-04-08T11:44:52.381-04:00  INFO 2384 --- [           main] c.e.a.controller.DebugControllerTest     : Starting DebugControllerTest using Java 17.0.8.1 with PID 2384 (started by webfr in c:\Users\webfr\aidebugger)
+2026-04-08T11:44:52.387-04:00  INFO 2384 --- [           main] c.e.a.controller.DebugControllerTest     : No active profile set, falling back to 1 default profile: "default"
+OpenJDK 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has been appended
+2026-04-08T11:44:57.513-04:00  INFO 2384 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-04-08T11:44:57.513-04:00  INFO 2384 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-04-08T11:44:57.521-04:00  INFO 2384 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 4 ms
+2026-04-08T11:44:57.570-04:00  INFO 2384 --- [           main] c.e.a.controller.DebugControllerTest     : Started DebugControllerTest in 6.383 seconds (process running for 8.349)
+2026-04-08T11:44:58.439-04:00  INFO 2384 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.example.aidebugger.controller.IncidentControllerTest]: IncidentControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-08T11:44:58.485-04:00  INFO 2384 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.example.aidebugger.AiDebuggerApplication for test class com.example.aidebugger.controller.IncidentControllerTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.4)
+
+2026-04-08T11:44:58.578-04:00  INFO 2384 --- [           main] c.e.a.controller.IncidentControllerTest  : Starting IncidentControllerTest using Java 17.0.8.1 with PID 2384 (started by webfr in c:\Users\webfr\aidebugger)
+2026-04-08T11:44:58.580-04:00  INFO 2384 --- [           main] c.e.a.controller.IncidentControllerTest  : No active profile set, falling back to 1 default profile: "default"
+2026-04-08T11:44:59.632-04:00  INFO 2384 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-04-08T11:44:59.633-04:00  INFO 2384 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-04-08T11:44:59.636-04:00  INFO 2384 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2026-04-08T11:44:59.670-04:00  INFO 2384 --- [           main] c.e.a.controller.IncidentControllerTest  : Started IncidentControllerTest in 1.175 seconds (process running for 10.449)
+2026-04-08T15:45:00.544Z [INFO] [MavenBuildTool] loading surefire reports.
+2026-04-08T15:45:00.592Z [INFO] [MavenBuildTool] summarizing surefire reports.
+2026-04-08T15:45:00.595Z [INFO] [Tool.invoke]({result: {
+  "message": "All tests passed! There are no test errors/failures in the project.",
+  "result": {
+    "errors": [],
+    "failures": [],
+    "summary": {
+      "tests": 9,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "reports": [
+      {
+        "name": "com.example.aidebugger.service.IncidentServiceTest",
+        "time": 0.541,
+        "tests": 2,
+        "errors": 0,
+        "skipped": 0,
+        "failures": 0,
+        "testcases": [
+          {
+            "name": "listIncidentsReturnsRepositoryResults",
+            "classname": "com.example.aidebugger.service.IncidentServiceTest",
+            "time": 0.496,
+            "failures": [],
+            "rerunFailures": [],
+            "flakyFailures": [],
+            "errors": [],
+            "rerunErrors": [],
+            "flakyErrors": []
+          },
+          {
+            "name": "createIncidentBuildsAndSavesEntity",
+            "classname": "com.example.aidebugger.service.IncidentServiceTest",
+            "time": 0.033,
+            "failures": [],
+            "rerunFailures": [],
+            "flakyFailures": [],
+            "errors": [],
+            "rerunErrors": [],
+            "flakyErrors": []
+          }
+        ]
+      },
+      {
+        "name": "com.example.aidebugger.controller.IncidentControllerTest",
+        "time": 1.342,
+        "tests": 3,
+        "errors": 0,
+        "skipped": 0,
+        "failures": 0,
+        "testcases": [
+          {
+            "name": "createReturnsCreated",
+            "classname": "com.example.aidebugger.controller.IncidentControllerTest",
+            "time": 0.052,
+            "failures": [],
+            "rerunFailures": [],
+            "flakyFailures": [],
+            "errors": [],
+            "rerunErrors": [],
+            "flakyErrors": []
+          },
+          {
+            "name": "createWithBlankFieldsReturnsBadRequest",
+            "classname": "com.example.aidebugger.controller.IncidentControllerTest",
+            "time": 0.014,
+            "failures": [],
+            "rerunFailures": [],
+            "flakyFailures": [],
+            "errors": [],
+            "rerunErrors": [],
+            "flakyErrors": []
+          },
+          {
+            "name": "listReturnsOkAndBody",
+            "classname": "com.example.aidebugger.controller.IncidentControllerTest",
+            "time": 0.03,
+            "failures": [],
+            "rerunFailures": [],
+            "flakyFailures": [],
+            "errors": [],
+            "rerunErrors": [],
+            "flakyErrors": []
+          }
+        ]
+      },
+      {
+        "name": "com.example.aidebugger.controller.DebugControllerTest",
+        "time": 8.022,
+        "tests": 3,
+        "errors": 0,
+        "skipped": 0,
+        "failures": 0,
+        "testcases": [
+          {
+            "name": "askReturnsAnswerAndContext",
+            "classname": "com.example.aidebugger.controller.DebugControllerTest",
+            "time": 0.55,
+            "failures": [],
+            "rerunFailures": [],
+            "flakyFailures": [],
+            "errors": [],
+            "rerunErrors": [],
+            "flakyErrors": []
+          },
+          {
+            "name": "ingestReturnsCreated",
+            "classname": "com.example.aidebugger.controller.DebugControllerTest",
+            "time": 0.159,
+            "failures": [],
+            "rerunFailures": [],
+            "flakyFailures": [],
+            "errors": [],
+            "rerunErrors": [],
+            "flakyErrors": []
+          },
+          {
+            "name": "askWithBlankQueryReturnsBadRequest",
+            "classname": "com.example.aidebugger.controller.DebugControllerTest",
+            "time": 0.1,
+            "failures": [],
+            "rerunFailures": [],
+            "flakyFailures": [],
+            "errors": [],
+            "rerunErrors": [],
+            "flakyErrors": []
+          }
+        ]
+      },
+      {
+        "name": "com.example.aidebugger.AiDebuggerApplicationTests",
+        "time": 0.081,
+        "tests": 1,
+        "errors": 0,
+        "skipped": 0,
+        "failures": 0,
+        "testcases": [
+          {
+            "name": "smokeTest",
+            "classname": "com.example.aidebugger.AiDebuggerApplicationTests",
+            "time": 0.025,
+            "failures": [],
+            "rerunFailures": [],
+            "flakyFailures": [],
+            "errors": [],
+            "rerunErrors": [],
+            "flakyErrors": []
+          }
+        ]
+      }
+    ]
+  },
+  "telemetry": {
+    "result": "succeeded"
+  }
+}}).
+2026-04-08T15:45:00.596Z [INFO] ----------------------invoked appmod-run-tests-for-java----------------------
