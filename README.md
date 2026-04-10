@@ -25,17 +25,13 @@ An AI-powered debugging assistant that uses **Retrieval-Augmented Generation (RA
 
 ---
 
-## 📁 Architecture Overview
+## Architecture Layers
 
-The project follows a layered architecture:
-
-com.example.aidebugger
-│
-├── controller → Exposes REST APIs for debugging requests
-├── service → Implements AI-driven debugging + RAG pipeline
-├── repository → Handles database operations using JPA
-├── entity → Defines database schema models
-├── config → Contains application & security configurations
+- controller   → REST API layer
+- service      → Business logic + AI/RAG processing
+- repository   → Data persistence layer
+- entity       → JPA entities
+- config       → System configuration
 
 This structure ensures:
 - Separation of concerns
